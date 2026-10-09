@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Crimson Fiend Greatsword</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      overflow: hidden;
+      background: #050508;
+      font-family: Arial, sans-serif;
+    }
+
+    #canvas-container {
+      width: 100vw;
+      height: 100vh;
+      position: fixed;
+      top: 0;
+      left: 0;
+    }
+
+    #ui {
+      position: fixed;
+      bottom: 20px;
+      left: 20px;
+      z-index: 10;
+      color: #fff;
+      pointer-events: none;
+    }
+
+    #ui h1 {
+      font-size: 20px;
+      margin-bottom: 5px;
+    }
+
+    #ui p {
+      font-size: 12px;
+      color: #888;
+      margin-bottom: 10px;
+    }
+
+    #ui a {
+      color: #ff4080;
+      text-decoration: none;
+    }
+
+    .btns {
+      display: flex;
+      gap: 8px;
+      pointer-events: auto;
+    }
+
+    .btn {
+      background: rgba(255, 255, 255, 0.1);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      color: #fff;
+      padding: 6px 14px;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 12px;
+    }
+
+    .btn:hover {
+      background: rgba(255, 255, 255, 0.2);
+    }
+
+    .btn.active {
+      background: rgba(255, 64, 128, 0.3);
+      border-color: #ff4080;
+      color: #ff4080;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div id="canvas-container"></div>
+
+  <div id="ui">
+    <h1>Crimson Fiend Greatsword</h1>
+    <p>by <a href="https://sketchfab.com/nodgerty" target="_blank">nodgerty</a></p>
+    <div class="btns">
+      <button class="btn active" id="btn-rotate">Auto Rotate</button>
+      <button class="btn" id="btn-wireframe">Wireframe</button>
+    </div>
+  </div>
+  <!DOCTYPE html>
+  <html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Crimson Fiend Greatsword</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        overflow: hidden;
+        background: #050508;
+      }
+
+      #canvas-container {
+        width: 100vw;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        left: 0;
+      }
+    </style>
+  </head>
+
+  <body>
+
+    <div id="canvas-container"></div>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+
+  </html>
+  <script type="module" src="/src/main.js"></script>
+</body>
+
+</html>
